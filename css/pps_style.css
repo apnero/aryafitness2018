@@ -10,8 +10,8 @@
 }
 @font-face{
     font-family:pps-icomoon;
-    src:url(/fonts/icomoon.eot?8e63sg);
-    src:url(/fonts/icomoon.eot?#iefix8e63sg) format('embedded-opentype'),url(/fonts/icomoon.ttf?8e63sg) format('truetype'),url(/fonts/icomoon.woff?8e63sg) format('woff'),url(/fonts/icomoon.svg?8e63sg#icomoon) format('svg');
+    src:url(../fonts/icomoon.eot?8e63sg);
+    src:url(../fonts/icomoon.eot?#iefix8e63sg) format('embedded-opentype'),url(../fonts/icomoon.ttf?8e63sg) format('truetype'),url(../fonts/icomoon.woff?8e63sg) format('woff'),url(/fonts/icomoon.svg?8e63sg#icomoon) format('svg');
     font-weight:400;
     font-style:normal
 }

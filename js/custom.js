@@ -6,6 +6,17 @@ jQuery(document).ready(function($) {
     $('.rev-popup-wrap .popup-close.top-close').click(function() {
         $('.rev-popup, .rev-popup-wrap, body').removeClass('open');
     })
+
+
+    $('.rev-pic-trigger').click(function() {
+        $('.rev-popup-pic, .rev-popup-pic-wrap, body').addClass('open');
+    });
+    $('.rev-popup-pic-wrap .popup-pic-close.top-close').click(function() {
+        $('.rev-popup-pic, .rev-popup-pic-wrap, body').removeClass('open');
+    })
+
+
+
     $('.rev-write-trigger').click(function() {
         $('.reviews-form').slideToggle();
         $('.form-holder').toggleClass('open');
@@ -38,6 +49,15 @@ jQuery(document).ready(function($) {
     $(".rev-popup-wrap, .rev-trigger").click(function(e) {
         e.stopPropagation();
     });
+
+    $(document).click(function() {
+        $('.rev-popup-pic, .rev-popup-pic-wrap, body').removeClass('open');
+    });
+    $(".rev-popup-pic-wrap, .rev--pic-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+
+
     $('.google-reviews').wrapInner('<a href="https://search.google.com/local/writereview?placeid=ChIJYfVBI1uVxokR6PRi45c-Mcw" target="_blank"></a>');
     $('#acf-field_5ae8b1ad91bbf').select2();
     $('body').arrive('.ctct-form-embed', function() {
@@ -91,26 +111,11 @@ jQuery(document).ready(function($) {
         jQuery('body').toggleClass('mobile-menu-active');
     });
     
-    $('#daniela-bio').hide();
     var figure = jQuery(".oc-dt-block").hover(hoverVideo, hideVideo);
 
     function hoverVideo(e) {
         jQuery('video', this).get(0).play();
-        $('.oc-dt-block').click(function() {
-            $('#daniela-bio').show();
-
-        }
-
-
-
-
-
-        );
-
-
-
-
-        $('.oc-dt-block video').prop('muted', false);
+          $('.oc-dt-block video').prop('muted', false);
     }
 
     function hideVideo(e) {

@@ -115,6 +115,68 @@ display: none;
   transform: translateX(-50%);
 visibility: visible;
 }
+
+.rev-popup-pic {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  top: 0px;
+  left: 0px;
+  z-index: 99999999;
+  opacity: 0.7;
+  background-color: #000; 
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;  
+}
+.rev-popup-pic.open {
+  visibility: visible;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;  
+  
+}
+.rev-popup-pic-wrap {
+  position: fixed !important;
+  background: #fff;
+  padding: 0px;
+  z-index: 999999999;
+  visibility: hidden;
+  top: 5%;
+  left: 50%;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  max-height: 700px;
+  height: 80%;
+  overflow: auto;
+  min-width: 300px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 14px 50px rgba(0,0,0, .13);
+  -webkit-transform: translateX(0);  
+  -moz-transform: translateX(0);  
+  -ms-transform: translateX(0);  
+  -o-transform: translateX(0);  
+  transform: translateX(0);
+}
+.rev-popup-pic-wrap.open {
+  -webkit-transform: translateX(-50%);  
+  -moz-transform: translateX(-50%);  
+  -ms-transform: translateX(-50%);  
+  -o-transform: translateX(-50%);  
+  transform: translateX(-50%);
+visibility: visible;
+}
+
 .reviewshortcode textarea {
   border-color: #000 !important;
 }
@@ -401,6 +463,11 @@ width:16px;
 .rev-popup-wrap {
   width: 90%;
 }
+
+.rev-popup-pic-wrap {
+  width: 90%;
+}
+
 .left-wrap, .right-wrap {
   width: 100% !important;
   float: none !important;
@@ -901,6 +968,12 @@ h1,h2 {
 .page-id-3599 .about-classes {
 	display:none;
 }
+
+.page-id-3599 .about-gym {
+  display:block;
+  padding: 0px;
+}
+
 
 .page-id-3599 .class-option a {
 	display:block!important;
@@ -1642,7 +1715,7 @@ a.wp-playlist-caption:hover span {
 }
 
 .page-id-3599 #beingbulldog {
-	background:url(https://d14s84iv6yyy5e.cloudfront.net/wp-content/uploads/2017/07/18153654/being-bg.jpg) no-repeat;
+	background:url(../images/being-bg.jpg) no-repeat;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-cover:cover;
@@ -3208,6 +3281,13 @@ hr.timeline {
 	backface-visibility:hidden;
 }
 
+.w-section-faq {
+
+  padding: 0px;
+}
+
+
+
 .no-padding {
 	padding:0;
 }
@@ -3670,8 +3750,9 @@ input[type="submit"],input[type="button"],input[type="reset"] {
 .music-points .w-text-block ul li {
 	list-style:none;
 	margin-left:-20px;
+  margin-right: 10px;
 	font-size:20px;
-	margin-bottom:10px;
+	margin-bottom:12px;
 }
 
 .music-points .w-text-block ul li:before {
@@ -5428,6 +5509,17 @@ input[type="submit"] {
 	position:absolute;
 	margin-left:-27px;
 	margin-right:0;
+}
+
+.w-text-block-guidelines p{
+  margin: 1px;
+  font-size: 17px;
+}
+
+.w-text-block-guidelines li{
+  margin: 1px;
+  font-size: 17px;
+  margin-bottom: 18px;
 }
 
 .hide-mobile {
@@ -7938,7 +8030,7 @@ and (orientation: landscape) {
 }
 
 .class-option.basics {
-	background:url(../video/basicmobile-cover.jpg) no-repeat;
+	background:url(../images/basicmobile-cover.jpg) no-repeat;
 }
 
 .class-option h2 {

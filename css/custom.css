@@ -8438,3 +8438,11 @@ and (orientation: landscape) {
 		background-image:url(https://d14s84iv6yyy5e.cloudfront.net/wp-content/uploads/2018/02/02181755/contactusmobile.jpg)!important;
 	}
 }
+
+
+.topicon {
+  font-size: 40px;
+  line-height: 55px;
+  padding-left:5px;
+  padding-right:5px;
+}

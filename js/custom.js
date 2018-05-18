@@ -73,31 +73,31 @@ jQuery(document).ready(function($) {
     });
     $('.pricing__deco').matchHeight();
     $('.pricing_image').matchHeight();
-    jQuery('.in-studio-button').click(function() {
-        jQuery('.schedule-location-popup').addClass('active');
-        jQuery('.popup-wrap').addClass('active');
-        jQuery('.popup-overlay').addClass('active');
-    });
-    jQuery('.popup-close').click(function() {
-        jQuery('.schedule-location-popup').removeClass('active');
-        jQuery('.popup-wrap').removeClass('active');
-    });
-    jQuery('.drop-trigger a').click(function() {
-        jQuery(this).toggleClass('open');
-        jQuery('.locations.drop-container').slideToggle();
-    });
-    jQuery('.popup-left.locations-buy a').click(function() {
-        jQuery('.popup-left .popup-slide').toggleClass('open');
-    });
-    jQuery('.popup-left.locations-buy .popup-close i').click(function() {
-        jQuery('.popup-left .popup-slide').removeClass('open');
-    });
-    jQuery('.popup-right.locations-buy a').click(function() {
-        jQuery('.popup-right .popup-slide').toggleClass('open');
-    });
-    jQuery('.popup-right.locations-buy .popup-close i').click(function() {
-        jQuery('.popup-right .popup-slide').removeClass('open');
-    });
+    // jQuery('.in-studio-button').click(function() {
+    //     jQuery('.schedule-location-popup').addClass('active');
+    //     jQuery('.popup-wrap').addClass('active');
+    //     jQuery('.popup-overlay').addClass('active');
+    // });
+    // jQuery('.popup-close').click(function() {
+    //     jQuery('.schedule-location-popup').removeClass('active');
+    //     jQuery('.popup-wrap').removeClass('active');
+    // });
+    // jQuery('.drop-trigger a').click(function() {
+    //     jQuery(this).toggleClass('open');
+    //     jQuery('.locations.drop-container').slideToggle();
+    // });
+    // jQuery('.popup-left.locations-buy a').click(function() {
+    //     jQuery('.popup-left .popup-slide').toggleClass('open');
+    // });
+    // jQuery('.popup-left.locations-buy .popup-close i').click(function() {
+    //     jQuery('.popup-left .popup-slide').removeClass('open');
+    // });
+    // jQuery('.popup-right.locations-buy a').click(function() {
+    //     jQuery('.popup-right .popup-slide').toggleClass('open');
+    // });
+    // jQuery('.popup-right.locations-buy .popup-close i').click(function() {
+    //     jQuery('.popup-right .popup-slide').removeClass('open');
+    // });
     jQuery('#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item.widget_media_image a').click(function() {
         jQuery('.mega-menu-wrap').removeClass('open');
         jQuery('.mega-menu-toggle').removeClass('mega-menu-open');

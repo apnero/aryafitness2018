@@ -8060,6 +8060,21 @@ and (orientation: landscape) {
 	opacity:1;
 }
 
+.online-classses-dt-content-ex {
+  position:absolute;
+  top:10%;
+  left:0;
+  padding:0 20px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  transition:all 3s ease;
+  -moz-transition:all 3s ease;
+  -webkit-transition:all 3s ease;
+  -o-transition:all 3s ease;
+  opacity:1;
+}
+
 .classes-landing-mobile {
 	display:none;
 }
@@ -8443,6 +8458,13 @@ and (orientation: landscape) {
 .topicon {
   font-size: 40px;
   line-height: 55px;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.bottomicon {
+  font-size: 80px;
+  line-height: 140px;
   padding-left:5px;
   padding-right:5px;
 }

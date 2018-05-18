@@ -53,7 +53,7 @@ jQuery(document).ready(function($) {
     $(document).click(function() {
         $('.rev-popup-pic, .rev-popup-pic-wrap, body').removeClass('open');
     });
-    $(".rev-popup-pic-wrap, .rev--pic-trigger").click(function(e) {
+    $(".rev-popup-pic-wrap, .rev-pic-trigger").click(function(e) {
         e.stopPropagation();
     });
 

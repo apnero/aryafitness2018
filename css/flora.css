@@ -2774,6 +2774,18 @@ body:not(.left-nav):not(.no-header):not(.mobile-nav) .main-content.header-space{
 body.mobile-nav .main-content.header-space{
     padding-top:65px
 }
+body.mobile-nav .main-content.header-space2{
+    padding-top:0px
+}
+
+
+body:not(.left-nav):not(.no-header):not(.mobile-nav) .main-content.header-space2{
+    padding-top:0px
+}
+body.mobile-nav .main-content.header-space2{
+    padding-top:0px
+}
+
 body.page .main-content .post-content{
     padding-top:40px;
     padding-bottom:30px

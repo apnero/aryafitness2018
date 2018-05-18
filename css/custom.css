@@ -159,7 +159,7 @@ visibility: visible;
   height: 80%;
   overflow: auto;
   min-width: 300px;
-  max-width: 600px;
+  max-width: 900px;
   width: 100%;
   box-shadow: 0 14px 50px rgba(0,0,0, .13);
   -webkit-transform: translateX(0);  
@@ -3971,15 +3971,30 @@ body.page-id-3112 .main-content .post-content {
 	opacity:1;
 	filter:alpha(opacity=100);
 }
+.leaders-content {
+  position:absolute;
+  left:30px;
+  top:50px;
+  opacity:1;
+  filter:alpha(opacity=100);
+}
+
 
 .leader-item:hover .leaders-content {
 	opacity:0;
 	filter:alpha(opacity=0);
 }
-
+.leaders-content {
+  opacity:0;
+  filter:alpha(opacity=0);
+}
 .leader-item.gracie:hover .leaders-content {
 	opacity:1;
 	filter:alpha(opacity=100);
+}
+.leaders-content {
+  opacity:1;
+  filter:alpha(opacity=100);
 }
 
 .leader-item .leaders-content h3 {
@@ -3990,18 +4005,32 @@ body.page-id-3112 .main-content .post-content {
 	line-height:28px;
 	margin-bottom:5px;
 }
-
+.leaders-content h3 {
+  text-transform:none;
+  color:#000;
+  font-size:22px;
+  letter-spacing:-1px;
+  line-height:28px;
+  margin-bottom:5px;
+}
 .leader-item .leaders-content .leader-subtitle {
 	text-transform:uppercase;
 	letter-spacing:1px;
 	font-family:'Montserrat';
 	font-size:14px;
 }
-
+.leaders-content {
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-family:'Montserrat';
+  font-size:14px;
+}
 .leader-item .leaders-content h3 span {
 	color:#bfbfbf;
 }
-
+.leaders-content h3 span {
+  color:#bfbfbf;
+}
 .leader-item span.show-profile {
 	opacity:0;
 	filter:alpha(opacity=0);
@@ -4058,6 +4087,13 @@ body.page-id-3112 .main-content .post-content {
 	position:relative;
 	min-height:55vh;
 }
+.leaders-content-container {
+  float:left;
+  width:100%;
+  position:relative;
+  min-height:55vh;
+}
+
 
 .single-class_leader .right-sidebar .main {
 	padding-right:0;
@@ -4072,7 +4108,14 @@ body.page-id-3112 .main-content .post-content {
 	position:relative;
 	z-index:2;
 }
-
+.leaders-content {
+  border-bottom:none;
+  overflow:hidden;
+  width:55%;
+  float:left;
+  position:relative;
+  z-index:2;
+}
 .single-class_leader #header:before {
 	background:#000;
 	box-shadow:none;
@@ -4151,6 +4194,13 @@ body.page-id-3112 .main-content .post-content {
 	width:46%;
 }
 
+.leaders-image {
+  position:absolute;
+  right:0;
+  bottom:0;
+  width:46%;
+}
+
 .leader-container {
 	position:relative;
 	float:left;
@@ -4163,6 +4213,12 @@ body.page-id-3112 .main-content .post-content {
 	width:100%;
 }
 
+.leaders-image img {
+  display:block;
+  text-align:right;
+  width:100%;
+}
+
 @media only screen and (max-width: 1700px) {
 	.single-class_leader .leaders-image {
 		position:absolute;
@@ -4170,16 +4226,29 @@ body.page-id-3112 .main-content .post-content {
 		bottom:0;
 		width:51%;
 	}
+  .leaders-image {
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:51%;
+  }
+
 }
 
 @media only screen and (max-width: 1500px) {
 	.single-class_leader .leaders-image {
 		width:58%;
 	}
-	
+	.leaders-image {
+    width:58%;
+  }
+
 	.postid-3226.single-class_leader .leaders-image {
 		width:53%;
 	}
+  .leaders-image {
+    width:53%;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -4190,7 +4259,9 @@ body.page-id-3112 .main-content .post-content {
 	.single-class_leader .leaders-content-container:after {
 		left:64%;
 	}
-	
+	.leaders-content-container:after {
+    left:64%;
+  }
 	.leader-title-container h1 {
 		font-size:56px;
 	}
@@ -4210,6 +4281,9 @@ body.page-id-3112 .main-content .post-content {
 	.single-class_leader .leaders-image {
 		width:58%;
 	}
+  .leaders-image {
+    width:58%;
+  }
 }
 
 @media only screen and (max-width: 1180px) {
@@ -4324,15 +4398,21 @@ body.page-id-3112 .main-content .post-content {
 		left:10px;
 		top:12px;
 	}
-	
+	 .leaders-content {
+    left:10px;
+    top:12px;
+  }
 	.leader-item .leaders-content h3 {
 		font-size:22px;
 	}
+  .leaders-content h3 {
+    font-size:22px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
 	.leaders-content-wrapper {
-		padding:50px 40px;
+		padding:0px 0px 30px;
 	}
 }
 
@@ -4340,13 +4420,21 @@ body.page-id-3112 .main-content .post-content {
 	.single-class_leader .leaders-content-container:after {
 		display:none;
 	}
+  .leaders-content-container:after {
+    display:none;
+  }
 	
 	.single-class_leader .leaders-image {
 		position:relative;
 		width:100%;
 		float:right;
 	}
-	
+	 .leaders-image {
+    position:relative;
+    width:100%;
+    float:right;
+  }
+
 	.leader-title-container h1 {
 		text-align:center;
 	}
@@ -4364,6 +4452,9 @@ body.page-id-3112 .main-content .post-content {
 	.single-class_leader .leaders-content {
 		width:100%;
 	}
+  .leaders-content {
+    width:100%;
+  }
 }
 
 @media only screen and (max-width: 320px) {

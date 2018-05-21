@@ -7893,9 +7893,15 @@ and (orientation: landscape) {
 .oc-dt-block.activate .oc-cover {
 	background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/06/16102636/activatecover.png) no-repeat center center;
 }
+.oc-dt-block.activate.weights .oc-cover {
+  background:url(videos/classes/weights.png) no-repeat center center;
+}
 
 .oc-dt-block.invigorate .oc-cover {
 	background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/06/16112233/invigoratecover.png) no-repeat center center;
+}
+.oc-dt-block.invigorate.dance .oc-cover {
+  background:url(videos/classes/dance.png) no-repeat center center;
 }
 
 .oc-dt-block.exhilarate .oc-cover {
@@ -8198,9 +8204,18 @@ and (orientation: landscape) {
 		display:block;
 	}
 	
-	#oc-dt {
+	#oc-dt1 {
 		display:none;
 	}
+  #oc-dt2 {
+    display:none;
+  }
+  #oc-dt3 {
+    display:none;
+  }
+  #oc-dt4 {
+    display:none;
+  }
 }
 
 /* End new classes page */

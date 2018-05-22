@@ -6,15 +6,49 @@ jQuery(document).ready(function($) {
     $('.rev-popup-wrap .popup-close.top-close').click(function() {
         $('.rev-popup, .rev-popup-wrap, body').removeClass('open');
     })
-
-
-    $('.rev-pic-trigger').click(function() {
-        $('.rev-popup-pic, .rev-popup-pic-wrap, body').addClass('open');
+    $(document).click(function() {
+        $('.rev-popup, .rev-popup-wrap, body').removeClass('open');
     });
-    $('.rev-popup-pic-wrap .popup-pic-close.top-close').click(function() {
-        $('.rev-popup-pic, .rev-popup-pic-wrap, body').removeClass('open');
-    })
+    $(".rev-popup-wrap, .rev-trigger").click(function(e) {
+        e.stopPropagation();
+    });
 
+  
+
+ //instructors
+ //daniela
+    $('.daniela-trigger').click(function() {
+        $('.popup-daniela, .popup-daniela-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+    });
+    $(".popup-daniela-wrap, .daniela-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+
+   $('.allison-trigger').click(function() {
+        $('.popup-allison, .popup-allison-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+    });
+    $(".popup-allison-wrap, .allison-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+
+
+
+// classes
+    $('.polefitness-trigger').click(function() {
+        $('.popup-polefitness, .popup-polefitness-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-polefitness, .popup-polefitness-wrap, body').removeClass('open');
+    });
+    $(".popup-polefitness-wrap, .polefitness-trigger").click(function(e) {
+        e.stopPropagation();
+    });
 
 
     $('.rev-write-trigger').click(function() {
@@ -42,19 +76,6 @@ jQuery(document).ready(function($) {
     $grid.isotope({
         itemSelector: '.review-single',
         layoutMode: 'vertical',
-    })
-    $(document).click(function() {
-        $('.rev-popup, .rev-popup-wrap, body').removeClass('open');
-    });
-    $(".rev-popup-wrap, .rev-trigger").click(function(e) {
-        e.stopPropagation();
-    });
-
-    $(document).click(function() {
-        $('.rev-popup-pic, .rev-popup-pic-wrap, body').removeClass('open');
-    });
-    $(".rev-popup-pic-wrap, .rev-pic-trigger").click(function(e) {
-        e.stopPropagation();
     });
 
 

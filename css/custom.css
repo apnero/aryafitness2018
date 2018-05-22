@@ -7894,18 +7894,38 @@ and (orientation: landscape) {
 	background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/06/16102636/activatecover.png) no-repeat center center;
 }
 .oc-dt-block.activate.weights .oc-cover {
-  background:url(videos/classes/weights.png) no-repeat center center;
+  background:url(/videos/classes/weights.png) no-repeat center center;
+}
+.oc-dt-block.activate.trx .oc-cover {
+  background:url(/videos/classes/trx.png) no-repeat center center;
 }
 
 .oc-dt-block.invigorate .oc-cover {
 	background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/06/16112233/invigoratecover.png) no-repeat center center;
 }
+
+.oc-dt-block.basics.hammock .oc-cover {
+  background:url(/videos/classes/hammock.png) no-repeat center center;
+}
+.oc-dt-block.basics.buti .oc-cover {
+  background:url(/videos/classes/buti.png) no-repeat center center;
+}
+
 .oc-dt-block.invigorate.dance .oc-cover {
-  background:url(videos/classes/dance.png) no-repeat center center;
+  background:url(/videos/classes/dance.png) no-repeat center center;
+}
+.oc-dt-block.invigorate.hoop .oc-cover {
+  background:url(/videos/classes/hoop.png) no-repeat center center;
+}
+.oc-dt-block.invigorate.megaburn .oc-cover {
+  background:url(/videos/classes/megaburn.png) no-repeat center center;
 }
 
 .oc-dt-block.exhilarate .oc-cover {
 	background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/06/19164036/exh-cover.png) no-repeat center center;
+}
+.oc-dt-block.exhilarate.kids .oc-cover {
+  background:url(/videos/parties/kids.png) no-repeat center center;
 }
 
 .oc-dt-block.bulldogbites .oc-cover {

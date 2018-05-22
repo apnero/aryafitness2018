@@ -49,7 +49,38 @@ jQuery(document).ready(function($) {
     $(".popup-polefitness-wrap, .polefitness-trigger").click(function(e) {
         e.stopPropagation();
     });
-
+    
+    $('.aerialhoop-trigger').click(function() {
+        $('.popup-aerialhoop, .popup-aerialhoop-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-aerialhoop, .popup-aerialhoop-wrap, body').removeClass('open');
+    });
+    $(".popup-aerialhoop-wrap, .aerialhoop-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+    
+    $('.youthhoop-trigger').click(function() {
+        $('.popup-youthhoop, .popup-youthhoop-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-youthhoop, .popup-youthhoop-wrap, body').removeClass('open');
+    });
+    $(".popup-youthhoop-wrap, .youthhoop-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+    
+    $('.aerialhammock-trigger').click(function() {
+        $('.popup-aerialhammock, .popup-aerialhammock-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-aerialhammock, .popup-aerialhammock-wrap, body').removeClass('open');
+    });
+    $(".popup-aerialhammock-wrap, .aerialhammock-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+    
+    
 
     $('.rev-write-trigger').click(function() {
         $('.reviews-form').slideToggle();

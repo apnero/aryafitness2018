@@ -132,7 +132,7 @@
     background-size:32px
 }
 #being-bulldog{
-    background:#fff url(https://bulldogonline.com/wp-content/uploads/2017/06/being-bg.jpg?id=9176)!important;
+    background:#fff url(/images/being-bg.jpg)!important;
     background-position:center!important;
     background-repeat:no-repeat!important;
     background-size:cover!important;
@@ -247,7 +247,7 @@
 }
 @media only screen and (max-width:1650px){
     .being-container-inner{
-        width:88%
+        width:70%
     }
 }
 @media only screen and (max-width:1480px){
@@ -283,7 +283,7 @@
         height:auto
     }
     .being-container-inner{
-        width:90%
+        width:75%
     }
 }
 @media only screen and (max-width:768px){

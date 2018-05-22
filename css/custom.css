@@ -3556,13 +3556,13 @@ hr.timeline {
 
 #home-welcome-content {
 	position:absolute;
-	top:50%;
-	left:10%;
+	top:80%;
+	left:45%;
 	transform:translateY(-50%);
 	-webkit-transform:translateY(-50%);
 	-moz-transform:translateY(-50%);
 	display:block;
-	width:90%;
+	width:60%;
 }
 
 #home-welcome-content h1 {

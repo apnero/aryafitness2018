@@ -37,7 +37,56 @@ jQuery(document).ready(function($) {
         e.stopPropagation();
     });
 
+    $('.alex-trigger').click(function() {
+        $('.popup-alex, .popup-alex-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+    });
+    $(".popup-alex-wrap, .alex-trigger").click(function(e) {
+        e.stopPropagation();
+    });
 
+   $('.marybeth-trigger').click(function() {
+        $('.popup-marybeth, .popup-marybeth-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+    });
+    $(".popup-marybeth-wrap, .marybeth-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+
+  $('.aly-trigger').click(function() {
+        $('.popup-aly, .popup-aly-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+    });
+    $(".popup-aly-wrap, .aly-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+
+    $('.nicole-trigger').click(function() {
+        $('.popup-nicole, .popup-nicole-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+    });
+    $(".popup-nicole-wrap, .nicole-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+
+
+    $('.samantha-trigger').click(function() {
+        $('.popup-samantha, .popup-samantha-wrap, body').addClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+    });
+    $(".popup-samantha-wrap, .samantha-trigger").click(function(e) {
+        e.stopPropagation();
+    });
 
 // classes
     $('.polefitness-trigger').click(function() {

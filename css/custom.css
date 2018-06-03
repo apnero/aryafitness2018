@@ -175,6 +175,7 @@ visibility: visible;
   -o-transform: translateX(-50%);  
   transform: translateX(-50%);
 visibility: visible;
+overflow: hidden;
 }
 
 .reviewshortcode textarea {
@@ -4101,14 +4102,17 @@ body.page-id-3112 .main-content .post-content {
 }
 
 .single-class_leader .leaders-content {
+  max-height: 500px;
 	border-bottom:none;
-	overflow:hidden;
+	overflow:scroll;
 	width:55%;
 	float:left;
 	position:relative;
 	z-index:2;
 }
 .leaders-content {
+    max-height: 500px;
+
   border-bottom:none;
   overflow:hidden;
   width:55%;

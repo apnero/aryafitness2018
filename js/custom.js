@@ -19,6 +19,14 @@ jQuery(document).ready(function($) {
  //daniela
     $('.daniela-trigger').click(function() {
         $('.popup-daniela, .popup-daniela-wrap, body').addClass('open');
+
+        // $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
@@ -27,8 +35,17 @@ jQuery(document).ready(function($) {
         e.stopPropagation();
     });
 
+
    $('.allison-trigger').click(function() {
         $('.popup-allison, .popup-allison-wrap, body').addClass('open');
+
+        $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+        // $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
@@ -37,8 +54,17 @@ jQuery(document).ready(function($) {
         e.stopPropagation();
     });
 
+
     $('.alex-trigger').click(function() {
         $('.popup-alex, .popup-alex-wrap, body').addClass('open');
+
+        $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        // $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
@@ -47,8 +73,17 @@ jQuery(document).ready(function($) {
         e.stopPropagation();
     });
 
+
    $('.marybeth-trigger').click(function() {
         $('.popup-marybeth, .popup-marybeth-wrap, body').addClass('open');
+
+        $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        // $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
@@ -57,8 +92,17 @@ jQuery(document).ready(function($) {
         e.stopPropagation();
     });
 
+
   $('.aly-trigger').click(function() {
         $('.popup-aly, .popup-aly-wrap, body').addClass('open');
+
+        $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        // $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
@@ -67,8 +111,17 @@ jQuery(document).ready(function($) {
         e.stopPropagation();
     });
 
+
     $('.nicole-trigger').click(function() {
         $('.popup-nicole, .popup-nicole-wrap, body').addClass('open');
+
+        $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        // $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
@@ -80,6 +133,14 @@ jQuery(document).ready(function($) {
 
     $('.samantha-trigger').click(function() {
         $('.popup-samantha, .popup-samantha-wrap, body').addClass('open');
+
+        $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        // $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
@@ -87,6 +148,7 @@ jQuery(document).ready(function($) {
     $(".popup-samantha-wrap, .samantha-trigger").click(function(e) {
         e.stopPropagation();
     });
+
 
 // classes
     $('.polefitness-trigger').click(function() {

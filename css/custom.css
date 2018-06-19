@@ -1738,7 +1738,7 @@ text-transform: uppercase;
 }
 
 .page-id-3599 #beingbulldog > .container > .row > .col-12 {
-	min-height:680px;
+	min-height:725px;
 }
 
 /*
@@ -3276,7 +3276,7 @@ hr.timeline {
 
 .w-section {
 	position:relative;
-	padding:75px 0;
+	padding:75px 0 0 0;
 	-webkit-backface-visibility:hidden;
 	-moz-backface-visibility:hidden;
 	backface-visibility:hidden;
@@ -7088,7 +7088,7 @@ page-id-2630 .home-about.w-section.w-full .row.container {
 
 @media only screen and (max-width: 1600px) {
 	.page-id-3599 #beingbulldog > .container > .row > .col-12 {
-		min-height:610px;
+		min-height:725px;
 	}
 	
 	#beingbulldog-container .w-custom-heading h2 {
@@ -7162,13 +7162,13 @@ page-id-2630 .home-about.w-section.w-full .row.container {
 	#beingbulldog-container {
 		width:470px;
 		left:53%;
-		top:16%;
+		top:10%;
 	}
 }
 
 @media only screen and (max-width: 1180px) {
 	.page-id-3599 #beingbulldog > .container > .row > .col-12 {
-		min-height:465px;
+		min-height:725px;
 	}
 }
 

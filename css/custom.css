@@ -175,7 +175,7 @@ visibility: visible;
   -o-transform: translateX(-50%);  
   transform: translateX(-50%);
 visibility: visible;
-overflow: hidden;
+overflow-y: scroll;/*hidden*/;
 }
 
 .reviewshortcode textarea {

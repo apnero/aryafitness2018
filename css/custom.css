@@ -1721,6 +1721,7 @@ a.wp-playlist-caption:hover span {
 	-webkit-background-size:cover;
 	-moz-background-cover:cover;
 	padding:0;
+  min-height:660px;
 }
 
 #appButton h2 {
@@ -1828,6 +1829,7 @@ text-transform: uppercase;
 
 #beingbulldog-image {
 	position:absolute;
+  /*padding-top:75px;*/
 	left:0;
 	bottom:0;
 	width:50%;
@@ -1923,6 +1925,16 @@ p {
 	font-family:Merriweather;
 	font-weight:400;
 	font-style:normal;
+}
+
+#home-slider p {
+  font-size:16px;
+  color:#585858;
+  line-height:25px;
+  text-align:left;
+  font-family:Merriweather;
+  font-weight:400;
+  font-style:normal;
 }
 
 .xl-padding {
@@ -3280,6 +3292,23 @@ hr.timeline {
 	-webkit-backface-visibility:hidden;
 	-moz-backface-visibility:hidden;
 	backface-visibility:hidden;
+}
+
+#testimonials.w-section {
+  position:relative;
+  padding:75px 0 0 0;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  backface-visibility:hidden;
+  min-height:   550px;
+}
+
+#testimonials .w-text-block {
+  padding-top: 200px;
+}
+#testimonials .bg-image  {
+
+  background-position: top;
 }
 
 .w-section-faq {
@@ -7101,7 +7130,7 @@ page-id-2630 .home-about.w-section.w-full .row.container {
 	#beingbulldog-container {
 		width:560px;
 		left:54%;
-		top:23%;
+		top:3%;
 	}
 	
 	.page-id-3599 #beingbulldog > .container > .row > .col-12 {
@@ -8491,3 +8520,4 @@ and (orientation: landscape) {
   padding-left:5px;
   padding-right:5px;
 }
+

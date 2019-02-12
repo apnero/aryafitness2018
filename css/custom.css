@@ -1717,11 +1717,11 @@ a.wp-playlist-caption:hover span {
 
 .page-id-3599 #beingbulldog {
 	background:url(../images/being-bg.jpg) no-repeat;
-	background-size:cover;
+	/*background-size:cover;*/
 	-webkit-background-size:cover;
 	-moz-background-cover:cover;
-	padding:0;
-  min-height:660px;
+	/*padding:0;*/
+  /*min-height:660px;*/
 }
 
 #appButton h2 {
@@ -3296,7 +3296,7 @@ hr.timeline {
 
 #testimonials.w-section {
   position:relative;
-  padding:75px 0 0 0;
+  padding: 95px 0 95px 0;
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   backface-visibility:hidden;
@@ -7948,13 +7948,36 @@ and (orientation: landscape) {
 .oc-dt-block.invigorate.weights .oc-cover {
   background:url(/videos/classes/weights.png) no-repeat center center;
 }
+
 .oc-dt-block.invigorate.trx .oc-cover {
   background:url(/videos/classes/trx.png) no-repeat center center;
 }
 
-.oc-dt-block.invigorate .oc-cover {
-	background:url(/videos/classes/pole.png) no-repeat center center;
+
+.oc-dt-block.exhilarate.fitness .oc-cover {
+	background:url(/images/homepage/fitness.png) no-repeat center center;
 }
+.oc-dt-block.invigorate.fitness .oc-cover {
+  background:url(/images/homepage/fitness.png) no-repeat center center;
+}
+
+
+.oc-dt-block.invigorate.pole .oc-cover {
+  background:url(/images/homepage/pole.png) no-repeat center center;
+}
+
+.oc-dt-block.exhilarate.aerial .oc-cover {
+  background:url(/images/homepage/aerial.png) no-repeat center center;
+}
+
+.oc-dt-block.exhilarate.frontdesk .oc-cover {
+  background:url(/images/aboutpage/frontdesk.png) no-repeat center center;
+}
+
+.oc-dt-block.invigorate.youth .oc-cover {
+  background:url(/images/homepage/kids.png) no-repeat center center;
+}
+
 
 .oc-dt-block.invigorate.hammock .oc-cover {
   background:url(/videos/classes/hammock.png) no-repeat center center;
@@ -7974,7 +7997,7 @@ and (orientation: landscape) {
 }
 
 .oc-dt-block.exhilarate .oc-cover {
-	background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/06/19164036/exh-cover.png) no-repeat center center;
+  background:url(/images/homepage/aerial.png) no-repeat center center;
 }
 .oc-dt-block.exhilarate.daniela .oc-cover {
   background:url(/images/instructors/daniela.png) no-repeat center center;

@@ -27,6 +27,8 @@ jQuery(document).ready(function($) {
         $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
         $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
         $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
@@ -46,6 +48,8 @@ jQuery(document).ready(function($) {
         $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
         $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
         $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
@@ -65,6 +69,8 @@ jQuery(document).ready(function($) {
         $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
         $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
         $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
@@ -84,6 +90,8 @@ jQuery(document).ready(function($) {
         $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
         $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
         $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
@@ -103,6 +111,8 @@ jQuery(document).ready(function($) {
         // $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
         $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
         $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
@@ -122,6 +132,8 @@ jQuery(document).ready(function($) {
         $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
         // $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
         $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
@@ -139,8 +151,10 @@ jQuery(document).ready(function($) {
         $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
         $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
         $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
-        // $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
-        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        // $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
     });
     $(document).click(function() {
         $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
@@ -149,6 +163,45 @@ jQuery(document).ready(function($) {
         e.stopPropagation();
     });
 
+    $('.dan-trigger').click(function() {
+        $('.popup-dan, .popup-dan-wrap, body').addClass('open');
+
+        $('.popup-daniela, .popup-daniela-wrap, body').removeClass('open');
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        // $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+    });
+    $(".popup-dan-wrap, .dan-trigger").click(function(e) {
+        e.stopPropagation();
+    });
+
+    $('.emily-trigger').click(function() {
+        $('.popup-emily, .popup-emily-wrap, body').addClass('open');
+
+        $('.popup-emilyiela, .popup-emilyiela-wrap, body').removeClass('open');
+        $('.popup-allison, .popup-allison-wrap, body').removeClass('open');
+        $('.popup-alex, .popup-alex-wrap, body').removeClass('open');
+        $('.popup-marybeth, .popup-marybeth-wrap, body').removeClass('open');
+        $('.popup-aly, .popup-aly-wrap, body').removeClass('open');
+        $('.popup-nicole, .popup-nicole-wrap, body').removeClass('open');
+        $('.popup-samantha, .popup-samantha-wrap, body').removeClass('open');
+        $('.popup-dan, .popup-dan-wrap, body').removeClass('open');
+        // $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
+    });
+    $(document).click(function() {
+        $('.popup-emily, .popup-emily-wrap, body').removeClass('open');
+    });
+    $(".popup-emily-wrap, .emily-trigger").click(function(e) {
+        e.stopPropagation();
+    });
 
 // classes
     $('.polefitness-trigger').click(function() {

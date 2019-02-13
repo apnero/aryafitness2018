@@ -159,7 +159,7 @@ visibility: visible;
   height: 80%;
   overflow: auto;
   min-width: 300px;
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   box-shadow: 0 14px 50px rgba(0,0,0, .13);
   -webkit-transform: translateX(0);  
@@ -175,7 +175,7 @@ visibility: visible;
   -o-transform: translateX(-50%);  
   transform: translateX(-50%);
 visibility: visible;
-overflow-y: scroll;/*hidden*/;
+overflow: visible;/*hidden*/;
 }
 
 .reviewshortcode textarea {
@@ -4131,16 +4131,16 @@ body.page-id-3112 .main-content .post-content {
 }
 
 .single-class_leader .leaders-content {
-  max-height: 500px;
+  /*max-height: 500px;*/
 	border-bottom:none;
 	overflow:scroll;
-	width:55%;
+	width:45%;
 	float:left;
 	position:relative;
 	z-index:2;
 }
 .leaders-content {
-    max-height: 500px;
+    max-height: 650px;
 
   border-bottom:none;
   overflow:hidden;
@@ -4185,7 +4185,7 @@ body.page-id-3112 .main-content .post-content {
 }
 
 .leaders-content-wrapper {
-	padding:50px 40px 20px 80px;
+	padding:0px 40px 20px 20px;
 }
 
 .single-class_leader .leaders-content-wrapper strong {
@@ -4193,7 +4193,7 @@ body.page-id-3112 .main-content .post-content {
 }
 
 .single-class_leader .leaders-content-wrapper .question {
-	padding-left:66px;
+	padding-left:43px;
 	padding-bottom:35px;
 	background-size:38px auto!important;
 }
@@ -4270,10 +4270,10 @@ body.page-id-3112 .main-content .post-content {
 
 @media only screen and (max-width: 1500px) {
 	.single-class_leader .leaders-image {
-		width:58%;
+		/*width:55%;*/
 	}
 	.leaders-image {
-    width:58%;
+    width:55%;
   }
 
 	.postid-3226.single-class_leader .leaders-image {
@@ -4448,7 +4448,7 @@ body.page-id-3112 .main-content .post-content {
 		padding:0px 0px 30px;
 	}
 }
-
+/*
 @media only screen and (max-width: 1024px) {
 	.single-class_leader .leaders-content-container:after {
 		display:none;
@@ -4489,7 +4489,7 @@ body.page-id-3112 .main-content .post-content {
     width:100%;
   }
 }
-
+*/
 @media only screen and (max-width: 320px) {
 	.leader-title-container h1 {
 		font-size:46px;
@@ -8001,35 +8001,38 @@ and (orientation: landscape) {
 }
 .oc-dt-block.exhilarate.daniela .oc-cover {
   background:url(/images/instructors/daniela.png) no-repeat center center;
+  background-size:auto;
+}
+.oc-dt-block.invigorate.allison .oc-cover {
+  background:url(/images/instructors/allison.png) no-repeat center center;
+    background-size:auto;
+}
+.oc-dt-block.exhilarate.alex .oc-cover {
+  background:url(/images/instructors/alex.png) no-repeat top center;
+}
+
+.oc-dt-block.invigorate.marybeth .oc-cover {
+  background:url(/images/instructors/marybeth.png) no-repeat center center;
+}
+.oc-dt-block.exhilarate.nicole .oc-cover {
+  background:url(/images/instructors/nicole.png) no-repeat center right;
+}
+.oc-dt-block.invigorate.samantha .oc-cover {
+  background:url(/images/instructors/samantha.png) no-repeat center center;
+}
+.oc-dt-block.exhilarate.dan .oc-cover {
+  background:url(/images/instructors/dan.png) no-repeat center center;
+}
+.oc-dt-block.invigorate.aly .oc-cover {
+  background:url(/images/instructors/aly.png) no-repeat top center;
+}
+.oc-dt-block.exhilarate.emily .oc-cover {
+  background:url(/images/instructors/emily.png) no-repeat center center;
 }
 
 .oc-dt-block.exhilarate.kids .oc-cover {
   background:url(/videos/parties/kids.png) no-repeat center center;
 }
-
-.oc-dt-block.invigorate.allison .oc-cover {
-  background:url(/images/instructors/allison.png) no-repeat center center;
-}
-
-.oc-dt-block.exhilarate.alex .oc-cover {
-  background:url(/images/instructors/alex.png) no-repeat center center;
-}
-
-.oc-dt-block.exhilarate.dan .oc-cover {
-  background:url(/images/instructors/dan.png) no-repeat center center;
-}
-
-.oc-dt-block.invigorate.emily .oc-cover {
-  background:url(/images/instructors/emily.png) no-repeat center center;
-}
-.oc-dt-block.invigorate.marybeth .oc-cover {
-  background:url(/images/instructors/marybeth.png) no-repeat center center;
-}
-
-.oc-dt-block.invigorate.nicole .oc-cover {
-  background:url(/images/instructors/nicole.png) no-repeat center center;
-}
-
 
 .oc-dt-block.bulldogbites .oc-cover {
 	background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/07/14185009/bdb-cover.jpg) no-repeat center center;
@@ -8194,6 +8197,12 @@ and (orientation: landscape) {
 	-o-transition:all 3s ease;
 	opacity:1;
 }
+
+.online-classses-dt-content.aboutpage {
+  top:83%;
+}
+
+
 
 .online-classses-dt-content-ex {
   position:absolute;

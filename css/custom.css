@@ -1835,6 +1835,13 @@ text-transform: uppercase;
 	width:50%;
 }
 
+#beingbulldog-image-classespage {
+  position:absolute;
+  /*padding-top:75px;*/
+  left:0;
+  width:50%;
+}
+
 #beingbulldog-image .wpb_raw_code.wpb_content_element.wpb_raw_html {
 	position:absolute;
 	max-width:860px;
@@ -7971,14 +7978,23 @@ and (orientation: landscape) {
   background:url(/images/homepage/pole.png) no-repeat center center;
 }
 .oc-dt-block.exhilarate.hoop .oc-cover {
-  background:url(/images/homepage/hoop.png) no-repeat center center;
+  background:url(/videos/classes/hoop.png) no-repeat center center;
+}
+.oc-dt-block.exhilarate.fitin30 .oc-cover {
+  background:url(/videos/classes/fitin30.png) no-repeat center center;
 }
 .oc-dt-block.invigorate.hammock .oc-cover {
   background:url(/images/homepage/hammock.png) no-repeat center center;
 }
+.oc-dt-block.invigorate.liquidmotion .oc-cover {
+  background:url(/videos/classes/liquidmotion.png) no-repeat center center;
+}
 
 .oc-dt-block.invigorate.sensualpole .oc-cover {
-  background:url(/images/homepage/pole.png) no-repeat center center;
+  background:url(/videos/classes/sensualpole.png) no-repeat center center;
+}
+.oc-dt-block.invigorate.yoga .oc-cover {
+  background:url(/videos/classes/yoga.png) no-repeat center center;
 }
 .oc-dt-block.exhilarate.aerial .oc-cover {
   background:url(/images/homepage/aerial.png) no-repeat center center;

@@ -7925,7 +7925,7 @@ and (orientation: landscape) {
 }
 
     .oc-dt-block.special {
-    margin: 20px;
+    margin: 16px;
   }
 
 .oc-dt-block-about {
@@ -7933,7 +7933,7 @@ and (orientation: landscape) {
 }
 
 .special.oc-dt-block-about {
-  width:29%;
+  width:31%;
 }
 
 .oc-dt-block video {
@@ -8003,6 +8003,9 @@ and (orientation: landscape) {
 }
 .oc-dt-block.invigorate.hammock .oc-cover {
   background:url(/images/homepage/hammock.png) no-repeat center center;
+}
+.oc-dt-block.invigorate.bendybody .oc-cover {
+  background:url(/videos/classes/bendybody.png) no-repeat center center;
 }
 .oc-dt-block.invigorate.liquidmotion .oc-cover {
   background:url(/videos/classes/liquidmotion.png) no-repeat center center;
@@ -8385,8 +8388,11 @@ and (orientation: landscape) {
 	}
 
     .oc-dt-block.special {
-    margin: 20px;
+    margin: 15px;
   }
+  .special.oc-dt-block-about {
+    width: 29%;
+}
 
 }
 
@@ -8395,7 +8401,7 @@ and (orientation: landscape) {
 		display:block;
 	}
 	
-	#oc-dt1 {
+/*	#oc-dt1 {
 		display:none;
 	}
   #oc-dt2 {
@@ -8407,6 +8413,12 @@ and (orientation: landscape) {
   #oc-dt4 {
     display:none;
   }
+  #oc-dt5 {
+    display:none;
+  }*/
+  .special.oc-dt-block-about {
+    width: 28%;
+}
 }
 
 /* End new classes page */
@@ -8462,6 +8474,22 @@ and (orientation: landscape) {
 	body #thank-you > .container h2   { 
   font-size: 28px !important;
   line-height: 42px !important;
+  }
+
+  #oc-dt1 {
+    display:none;
+  }
+  #oc-dt2 {
+    display:none;
+  }
+  #oc-dt3 {
+    display:none;
+  }
+  #oc-dt4 {
+    display:none;
+  }
+  #oc-dt5 {
+    display:none;
   }
 }
 

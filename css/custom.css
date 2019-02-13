@@ -3590,6 +3590,24 @@ hr.timeline {
 	display:block;
 	padding:0;
 }
+#home-welcome-container.aboutpage {
+  height:48vh;
+  position:relative;
+  display:block;
+  padding:0;
+}
+#home-welcome-container.homepage {
+  height:70vh;
+  position:relative;
+  display:block;
+  padding:0;
+}
+#home-welcome-container.classespage {
+  height:60vh;
+  position:relative;
+  display:block;
+  padding:0;
+}
 
 #home-welcome-content {
 	position:absolute;

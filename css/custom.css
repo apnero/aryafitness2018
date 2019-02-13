@@ -7941,7 +7941,9 @@ and (orientation: landscape) {
 .oc-dt-block.activate .oc-cover {
 	background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/06/16102636/activatecover.png) no-repeat center center;
 }
-
+.oc-dt-block.invigorate .oc-cover {
+  background:url(https://dbkizh7nii7b3.cloudfront.net/wp-content/uploads/2017/06/16102636/activatecover.png) no-repeat center center;
+}
 /*.oc-dt-block.activate.daniela .oc-cover {
   background:url(images/instructors/daniela.png) no-repeat center center;
 }*/
@@ -7965,7 +7967,19 @@ and (orientation: landscape) {
 .oc-dt-block.invigorate.pole .oc-cover {
   background:url(/images/homepage/pole.png) no-repeat center center;
 }
+.oc-dt-block.exhilarate.pole .oc-cover {
+  background:url(/images/homepage/pole.png) no-repeat center center;
+}
+.oc-dt-block.exhilarate.hoop .oc-cover {
+  background:url(/images/homepage/hoop.png) no-repeat center center;
+}
+.oc-dt-block.invigorate.hammock .oc-cover {
+  background:url(/images/homepage/hammock.png) no-repeat center center;
+}
 
+.oc-dt-block.invigorate.sensualpole .oc-cover {
+  background:url(/images/homepage/pole.png) no-repeat center center;
+}
 .oc-dt-block.exhilarate.aerial .oc-cover {
   background:url(/images/homepage/aerial.png) no-repeat center center;
 }

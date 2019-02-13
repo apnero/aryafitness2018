@@ -661,9 +661,26 @@
                   <div class="wpb_raw_code wpb_raw_js">
                      <div class="wpb_wrapper">
                         <div class="watch-video">
-                           <script data-cfasync="false" src="js/email-decode.min.js"></script>
-                           <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_s1ww89lc9x popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a class="book-button w-button" href="#">See arya in action</a></span>
+                           
+                           <span class="wistia_embed wistia_async_s1ww89lc9x popover=true popoverAnimateThumbnail=true popoverContent=link wistia_embed_initialized" style="display:inline" id="wistia-s1ww89lc9x-1">
+                            <div id="wistia_29.thumb_container" class="wistia_click_to_play" style="position: relative; display: inline;">
+                                <a class="book-button w-button" href="#meetus" onclick="lightbox_open();">See arya in action</a>
+                            </div>
+                        </span>
                         </div>
+
+<div id="light">
+  <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+  <video id="AryaAboutPageVideo" width="900" controls>
+      <source src="videos/aryaaboutpagevideo.mp4" type="video/mp4">
+      <!--Browser does not support <video> tag -->
+    </video>
+</div>
+
+<div id="fade" onClick="lightbox_close();"></div>
+
+
+
                      </div>
                   </div>
                   <div class="w-space" style="height:40px"></div>
@@ -1378,6 +1395,7 @@
       <script type='text/javascript' src='js/es-widget-page.js?ver=4.9.5'></script>
       <script type='text/javascript' src='js/jquery/ui/effect.min.js?ver=1.11.4'></script>
       <script type='text/javascript' src='js/plugins.js?ver=4.9.5'></script>
+      <script type="text/javascript" src="js/html5lightbox.js"></script>
       <script type='text/javascript'>
          /* <![CDATA[ */
          var page_settings = {"siteURL":"http:\/\/www.bulldogyoga.com","isPreload":"1","ajaxURL":"http:\/\/www.bulldogyoga.com\/wp-admin\/admin-ajax.php","ajax_search":"1","ajax_page":"1","ajax_page_settings":{"transition":"fade","excludeURLs":["\/shop\/","\/product\/","\/product-category\/","\/cart\/","\/checkout\/","\/my-account\/"]},"smooth_scroll":"1"};
